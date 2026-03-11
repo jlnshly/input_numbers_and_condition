@@ -2,7 +2,7 @@
 #Set a loop
 #Finalize conditions
 number_list = []
-for i in range(1, 11):
+while True:
     user_input = float(input("Enter a number: "))
     if user_input in number_list:
         print("Duplicate")
